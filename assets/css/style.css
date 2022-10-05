@@ -1,0 +1,217 @@
+/* Base Styles CSS Start */
+
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Base Styles CSS End */
+
+/* Header Section CSS Start */
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+}
+
+.logo {
+  max-width: 260px;
+  width: 100%;
+  height: 80px;
+  background: #ffffff !important;
+  padding-left: 50px;
+  box-shadow: 0px 3px 30px rgb(0 0 0 / 7%);
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  padding-top: 22px;
+  color: #333333;
+  display: block;
+}
+
+.admin {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px 10px 10px;
+  border-left: 1px solid #e4e4e4;
+}
+
+.admin h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333333;
+}
+
+/* Header Section CSS End */
+
+/* Appointment Body Section CSS Start */
+
+.appointment-body-wrapper {
+  display: flex;
+}
+
+/* Sidebar Section CSS Start */
+
+.sidebar {
+  max-width: 260px;
+  width: 100%;
+  height: 125vh;
+  background: #ffffff;
+  box-shadow: 0px 3px 30px rgb(0 0 0 / 7%);
+}
+
+.sidebar-menu {
+  width: 260px;
+  padding-top: 30px;
+}
+
+.sidebar-menu li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.sidebar-menu li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #333333;
+  padding: 12px 0 12px 50px;
+  display: block;
+}
+
+.sidebar-menu li a.active {
+  background: #eff7ff;
+  color: #007bff;
+  font-weight: 700;
+  border-left: 5px solid #007bff;
+}
+
+.sidebar-menu li a img {
+  padding-right: 10px;
+}
+
+/* Sidebar Section CSS End */
+
+/* Appointment Card Section CSS Start */
+
+.appointment {
+  width: 100%;
+  background: #f5f5f5;
+}
+
+.appointment-wrapper {
+  background: url(../images/appointment-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 120px 0px;
+}
+
+.appointment-wrapper h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-left: 80px;
+  margin-top: -60px;
+}
+
+.appoint-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 0 80px;
+  position: relative;
+  margin-top: -80px;
+}
+
+.appointment-card {
+  background: #ffffff;
+  box-shadow: 0px 3px 30px rgb(0 0 0 / 7%);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-left: -10px;
+}
+
+.user-info h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.user-info h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777777;
+  padding-top: 4px;
+}
+
+.contact-info {
+  padding-top: 10px;
+}
+
+.contact-info h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.contact-info a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #0c86cd;
+}
+
+.consult-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 10px;
+}
+
+.appointment-time h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.appointment-time h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #777777;
+}
+
+.consult-time a {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #28a745;
+}
+
+a.revisit-btn {
+  color: #007bff;
+}
+
+/* Appointment Card Section CSS End */
